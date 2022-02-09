@@ -1,4 +1,4 @@
-# Copyright 2021 GradMax Authors.
+# Copyright 2022 GradMax Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,8 +15,7 @@
 #!/bin/bash
 set -e
 set -x
-virtualenv -p python3 env
-source env/bin/activate
-pip install -r growneuron/requirements.txt
+
+pip install .
 python -m growneuron.layers_test
 python -m growneuron.updaters_test
