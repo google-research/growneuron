@@ -4,7 +4,7 @@
 
 Code for reproducing our results in the GradMax paper [[arxiv.org/abs/2201.05125](https://arxiv.org/abs/2201.05125)].
 
-<img src="https://github.com/google-research/growneuron/blob/main/imgs/gradmax.png" alt="GradMax " width="80%" align="left">
+<img src="https://github.com/google-research/growneuron/blob/main/imgs/gradmax.png" alt="GradMax" width="80%" align="center">
 
 
 ## Setup
