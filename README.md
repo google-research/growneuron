@@ -14,15 +14,13 @@ git clone https://github.com/google-research/growneuron.git
 cd growneuron
 ```
 
-Following script creates a virtual environment and
-installs the necessary libraries. Finally, it runs few tests.
+Following script installs the necessary libraries and runs few tests.
 ```bash
 bash run.sh
 ```
 
-We need to activate the virtual environment before running an experiment and
-download the dataset. Is data-set is already downloaded the path can be passed
-with `--data_dir` argument.
+Following will download the data and run the baseline experiment. If the
+data is already downloaded use the `--data_dir` flag to pass the path.
 ```bash
 python growneuron/cifar/main.py --output_dir=/tmp/cifar --download_data
 ```
