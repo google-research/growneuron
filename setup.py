@@ -33,7 +33,7 @@ setup(
         'numpy',
         'ml-collections',
         'tensorflow==2.7',
-        'scipy==1.7.3',
+        'scipy==1.11.1',
         'tfds-nightly',
         ('uncertainty_baselines @ git+https://github.com/google/'
          'uncertainty-baselines.git#egg=uncertainty_baselines'),
