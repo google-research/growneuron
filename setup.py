@@ -32,7 +32,7 @@ setup(
         'absl-py',
         'numpy',
         'ml-collections',
-        'tensorflow==2.7',
+        'tensorflow==2.12.1',
         'scipy==1.7.3',
         'tfds-nightly',
         ('uncertainty_baselines @ git+https://github.com/google/'
